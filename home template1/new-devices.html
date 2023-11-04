@@ -1,0 +1,43 @@
+<!-- New Phones -->
+<!--php code-->
+<section id="new-phones">
+    <div class="container">
+        <h4 class="font-rubik font-size-20">NEW DEVICES</h4>
+        <hr>
+
+        <!-- owl carousel -->
+        <div class="owl-carousel owl-theme">
+            <!--php code-->
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="<!--php code-->" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6><!--php code--></h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$<!--php code--></span>
+                            </div>
+                            <form method="post">
+                                <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? '1'; ?>">
+                                <input type="hidden" name="user_id" value="<?php echo 1; ?>">
+                                <!--php code-->
+                                <button type="submit" disabled class="btn btn-success font-size-12">In the Cart</button>';
+                                <!--php code--><button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">Add to Cart</button>';
+                                <!-- close php -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+           <!--php code-->
+        </div>
+        <!-- !owl carousel -->
+
+    </div>
+</section>
+<!-- !New Phones -->

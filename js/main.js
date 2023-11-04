@@ -67,7 +67,7 @@ function redirectToLogin() {
     var Email = document.querySelector('.input-field[placeholder="Email"]').value;
     var newPassword = document.querySelector('.input-field[placeholder="New Password"]').value;
     if (Email.trim() !== '' && newPassword.trim() !== '') {
-        window.location.href = './login.html';
+        window.location.href = 'login.html';
     } else {
         alert('Please fill in all required fields.');
     }
