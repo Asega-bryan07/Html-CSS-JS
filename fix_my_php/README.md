@@ -1,6 +1,6 @@
 # FIX_MY_PHP: 
-    ```This is a continuation of the web development project. Now we have moved from the front-end; much of a designer,
-    to the backend, where we are becoming developers from designers.```
+    This is a continuation of the web development project. Now we have moved from the front-end; much of a designer,
+    to the backend, where we are becoming developers from designers.
     '''
 # in this project, you are required to do the following:
         * create a database that will intergrate with the PHP files published.
